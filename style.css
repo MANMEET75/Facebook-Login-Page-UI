@@ -1,0 +1,224 @@
+body {
+    background-color: #f2f2f2;
+    max-height:100%;
+    overflow:auto; 
+}
+
+
+.FBLogo{
+    width: 250px;
+    position: relative;
+    top: 42px;
+    display: inline;
+}
+
+.card{
+    position: relative;
+    top: 50px;
+}
+
+form{
+    margin: 15px;
+}
+.form-heading{
+    font-size: 18px;
+    font-weight: 500;
+}
+.form-control{
+    height: 50px;
+}
+
+form::placeholder{
+    color: grey;
+    letter-spacing: 10px;
+}
+.LogInBTN{
+    width: 100%;
+    background-color: #1877f2;
+    height: 45px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.forgetLink{
+    position: relative;
+    bottom: 18px;
+    color: #1877f2;
+    text-decoration: none;
+    display: inline;
+
+}
+
+.CreateNewAccountBTN{
+    background-color: #42b72a;
+    width: 50%;
+    height: 45px;
+    font-size: 17px;
+    font-weight: 700;
+    border: 0;
+}
+.CreateNewAccountBTN:hover{
+    background-color: #42b72a;
+
+  
+}
+
+.card-body{
+    padding-bottom: 18px;
+}
+
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.cardHR {
+    height:2px;
+    border:0;
+    background-color: #fff;
+    line-height:20px;
+    
+
+}
+
+.cardHR:before {
+  content: '';
+  display: block;
+  height: 1px;
+  background-color: #111;
+}
+
+.cardHR:after {
+    content: 'or';
+    color:#000;
+    display:block;
+    text-align:center;
+    background-color:#fff;
+    font-size: 14px;
+    width:60px;
+    margin-top:-10px;
+    position:absolute;
+    left:50%;
+    -webkit-transform: translate(-50%);
+    -moz-transform: translate(-50%);
+    -ms-transform: translate(-50%);
+    -o-transform: translate(-50%);
+    transform: translate(-50%);  
+}
+
+.hr-container{
+    position: relative;
+    bottom: 13px;
+}
+
+.second-container{
+    position: relative;
+    top: 100px;
+    background-color: #fff;
+}
+
+
+
+.title {
+    color: #24bba0;
+  }
+  
+  .header {
+    color: #5371e1;
+  }
+  
+  .detail {
+    color: #b2b2b2;
+  }
+  
+  .highlight {
+    color: #5371e1;
+  }
+  
+  .text {
+    color: #ffffff;
+  }
+  
+  .footer {
+    padding-top: 65px;
+    padding-bottom: 77px;
+    max-width: 49%;
+    margin: 40px auto;
+    text-align: left;
+    word-spacing: 7px;
+    color: black;
+    opacity: 0.6;
+
+  }
+
+
+  @media screen and (max-width:1294px) {
+    .footer {
+      
+        max-width: 65%;
+        padding-bottom: 65px;
+    }
+}
+  @media screen and (max-width:633px) {
+    .footer {
+      
+        max-width: 80%;
+        padding-bottom: 65px;
+    }
+}
+  @media screen and (max-width:402px) {
+    .footer {
+      
+        max-width: 90%;
+        padding-bottom: 65px;
+    }
+}
+  
+  .footer .hr-text {
+    font-size: 20px;
+    position: relative;
+    border: 0;
+    height: 1.5em;
+  }
+  
+  .footer .hr-text:before {
+    content: '';
+    background: linear-gradient(to right, transparent, #b2b2b2, transparent);
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    height: 1px;
+  }
+  
+  .footer .hr-text:after {
+    content: attr(data-content);
+    position: relative;
+    display: inline-block;
+    color: black;
+    background-color: black;
+  }
+  
+  .footer li {
+    display: inline-block;
+    font-size: 12px;
+  }
+  
+  .footer i {
+    font-size: 7px;
+  }
+  
+.footerHR{
+    position: relative;
+    bottom: 8px;
+}
+.metaCopyRight{
+    padding-top: 15px;
+    font-size: 11px;
+}
+
+.plusBTN{
+    font-size: 15px;
+    height: 28px;
+  
+}
